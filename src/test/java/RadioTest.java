@@ -19,7 +19,6 @@ class RadioTest {
     }
 
 
-
     @Test
     public void testSetCurrentStationMoreNine() {
         Radio radio = new Radio();
@@ -86,7 +85,7 @@ class RadioTest {
 
 
     @Test
-    public void testIncreaseVolume(){
+    public void testIncreaseVolume() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(40);
@@ -99,7 +98,7 @@ class RadioTest {
 
 
     @Test
-    public void testIncreaseVolumeMoreHundred(){
+    public void testIncreaseVolumeMoreHundred() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(100);
@@ -112,7 +111,7 @@ class RadioTest {
 
 
     @Test
-    public void testDecreaseVolume(){
+    public void testDecreaseVolume() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(40);
@@ -125,7 +124,7 @@ class RadioTest {
 
 
     @Test
-    public void testDecreaseVolumeBelowZero(){
+    public void testDecreaseVolumeBelowZero() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(0);
@@ -171,13 +170,6 @@ class RadioTest {
 
         Assertions.assertEquals(expected, actual);
     }
-
-
-
-
-
-
-
 
 
 }
